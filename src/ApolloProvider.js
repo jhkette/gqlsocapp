@@ -8,7 +8,7 @@ import { setContext } from 'apollo-link-context';
 
 // server link
 const httpLink = createHttpLink({
-  uri: 'http://localhost:5000'
+  uri: 'https://afternoon-beyond-28235.herokuapp.com/'
 });
 
 // set context which looks for authorization token
